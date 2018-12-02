@@ -1,7 +1,7 @@
 ﻿namespace ConsoleApp6 {
-    public interface DailySolution {
-        int Part1();
+    public interface DailySolution<Part1Type, Part2Type> {
+        Part1Type Part1();
 
-        int Part2();
+        Part2Type Part2();
     }
 }
